@@ -1,4 +1,4 @@
-# HAMUR
+# HDRO
 
 Official implementation of our paper [Robust Multi-scenario Recommendation with Hierarchical Distributed Robust Optimization]
 
