@@ -7,10 +7,10 @@ Official implementation of our paper [Robust Multi-scenario Recommendation with 
 
 
 ## Dataset Download
-In this paper, we use two datasets, **movieLens**. Dataset samples are shown in example/data.
+In this paper, we use three datasets, **movieLens**, **douban**, **kuaishou**. Dataset samples are shown in example/data.
 
 Full dataset download:
-* Movielens: The raw data file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m), and you could directly download the processed file from https://cowtransfer.com/s/5a3ab69ebd314e.
+* Movielens: The raw data file can be found in [Torch-Rechub-ml-1m](https://github.com/morningsky/Torch-RecHub/tree/main/examples/matching/data/ml-1m).
 
 ## Run the model
 ```Shell
