@@ -7,7 +7,7 @@ Official implementation of our paper [Robust Multi-scenario Recommendation with 
 
 
 ## Dataset Download
-In this paper, we use three datasets, **MovieLens**, **Douban**, **KuaiShou**.
+In this paper, we use three datasets, **MovieLens**, **Douban**, **KuaiShou**. For example, download dataset MovieLens(ml-1m.zip) in train_val_test_split/...
 
 ## Run the model
 ```Shell
