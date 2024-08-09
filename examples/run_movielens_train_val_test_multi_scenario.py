@@ -3,15 +3,15 @@ sys.path.append("../")
 import torch
 import pandas as pd
 from tqdm import tqdm
-from HAMUR.basic.features import DenseFeature, SparseFeature
+from MSRS.basic.features import DenseFeature, SparseFeature
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-from HAMUR.trainers import CTRTrainer
-from HAMUR.trainers.ctr_trainer import CTRTrainerV
-from HAMUR.utils.data import DataGenerator
-from HAMUR.models.multi_domain import Mlp_7_Layer, Mlp_2_Layer, MLP_adap_2_layer_1_adp, DCN_MD, DCN_MD_adp, WideDeep_MD, WideDeep_MD_adp
-from HAMUR.models.multi_domain.adapter import Mlp_2_Layer_SharedBottom,Mlp_2_Layer_MMoE,Mlp_2_Layer_PLE,Mlp_2_Layer_AITM,Mlp_2_Layer_STAR
-from HAMUR.Utility.tools import validate,getSeqDict,saveModel,readSeqDict,seq2str
-from HAMUR.models.HDRO import HDRO_learning_w
+from MSRS.trainers import CTRTrainer
+from MSRS.trainers.ctr_trainer import CTRTrainerV
+from MSRS.utils.data import DataGenerator
+from MSRS.models.multi_domain import Mlp_7_Layer, Mlp_2_Layer, MLP_adap_2_layer_1_adp, DCN_MD, DCN_MD_adp, WideDeep_MD, WideDeep_MD_adp
+from MSRS.models.multi_domain.adapter import Mlp_2_Layer_SharedBottom,Mlp_2_Layer_MMoE,Mlp_2_Layer_PLE,Mlp_2_Layer_AITM,Mlp_2_Layer_STAR
+from MSRS.Utility.tools import validate,getSeqDict,saveModel,readSeqDict,seq2str
+from MSRS.models.HDRO import HDRO_learning_w
 
 # data cluster and domain_ratio
 import numpy as np
