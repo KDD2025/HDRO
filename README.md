@@ -1,13 +1,13 @@
 # HDRO
 
-Official implementation of our paper [Robust Multi-scenario Recommendation with Hierarchical Distributed Robust Optimization]
+Available code corresponding to our paper “Robust Multi-scenario Recommendation with Hierarchical Distributed Robust Optimization”
 
 
 ## Introduction
 
 
 ## Dataset Download
-In this paper, we use three datasets, **MovieLens**, **Douban**, **KuaiShou**. For example, download dataset MovieLens(ml-1m.zip) in train_val_test_split/...
+In this paper, we use three datasets, **MovieLens**, **Douban**, **KuaiShou**. For example, download dataset MovieLens(ml-1m.zip) in the file train_val_test_split/...
 
 ## Run the model
 ```Shell
